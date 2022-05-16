@@ -16,7 +16,10 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Chido</footer>
+        <footer className="App-footer">
+          Coded by Chido{" "}
+          <a href="github.com/chwema/dictionary-project">open-source code</a>
+        </footer>
       </div>
     </div>
   );
