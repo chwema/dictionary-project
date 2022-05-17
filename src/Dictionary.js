@@ -24,9 +24,9 @@ export default function Dictionary(props) {
   }
 
   function handleKeywordChange(event) {
-    event.preventDefault();
     setKeyword(event.target.value);
   }
+
   function load() {
     setLoaded(true);
     search();
@@ -40,9 +40,8 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              autoFocus={true}
-              defaultValue={props.defaultKeyword}
               onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
             />
           </form>
           <div className="hint">
