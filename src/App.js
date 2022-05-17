@@ -12,13 +12,14 @@ export default function App() {
             className="App-logo img-fluid"
             alt="Dictionary logo"
           />
+          <h1>Dictionary App</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="Diamond" />
         </main>
         <footer className="App-footer">
-          Coded by Chido{" "}
-          <a href="github.com/chwema/dictionary-project">open-source code</a>
+          <a href="github.com/chwema/dictionary-project">open-source code</a> by
+          Chido.
         </footer>
       </div>
     </div>
