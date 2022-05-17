@@ -14,7 +14,7 @@ export default function App() {
           />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="paris" />
         </main>
         <footer className="App-footer">
           Coded by Chido{" "}
