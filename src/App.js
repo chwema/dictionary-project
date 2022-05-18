@@ -19,7 +19,9 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <a href="github.com/chwema/dictionary-project">open-source code</a> by
-          Chido.
+          <a href="https://www.linkedin.com/in/chido-chimbetete-5291bb177/">
+            Chido
+          </a>
         </footer>
       </div>
     </div>
