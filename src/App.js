@@ -17,12 +17,16 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="Diamond" />
         </main>
-        <footer className="App-footer">
-          <a href="github.com/chwema/dictionary-project">open-source code</a> by
-          <a href="https://www.linkedin.com/in/chido-chimbetete-5291bb177/">
-            Chido
-          </a>
-        </footer>
+        <section>
+          <footer className="App-footer">
+            <a href="github.com/chwema/dictionary-project">open-source-code</a>{" "}
+            by
+            <a href="https://www.linkedin.com/in/chido-chimbetete-5291bb177/">
+              {" "}
+              Chido
+            </a>
+          </footer>
+        </section>
       </div>
     </div>
   );

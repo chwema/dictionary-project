@@ -12,11 +12,23 @@
   margin: 20px 0;
 }
 .Dictionary input {
-  width: 100%;
+  width: 45%;
   border-radius: 6px;
+  margin: 5px 5px;
   padding: 6px 4px;
   color: #385170;
   border: 2px solid #142d4c;
+}
+.Dictionary input[type="submit"] {
+  margin-left: 20px;
+  color: #385170;
+  transition: all 150ms ease-in-out;
+}
+
+.Dictionary input[type="submit"]:hover {
+  background: #b2c7df;
+  font-weight: 400;
+  color: #ececec;
 }
 
 .Dictionary .hint {
